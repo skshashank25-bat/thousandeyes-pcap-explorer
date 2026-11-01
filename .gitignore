@@ -1,0 +1,29 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+captures/
+reports/
+backup*/
+*.pcap
+*.pcapng
+*.pem
+*.key
+
+# Development backups
+*_backup.py
+*_stage*_backup.py
+dashboard_v*.py
+pcap_analyzer_v*.py
+dashboard_before_reorder.py
+
+# Generated archives
+*.zip
+
+# Old project copies
+pcap_explorer_stage4_updated/
+te_pcap_project/
